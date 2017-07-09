@@ -438,3 +438,426 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1498279512268	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
 1498279512303	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
 1498279512612	Marionette	INFO	New connections will no longer be accepted
+1498280938995	geckodriver	INFO	Listening on 127.0.0.1:55792
+1498280940072	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1498280942186	Marionette	INFO	Listening on port 55798
+1498280942311	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498280942592	Marionette	DEBUG	loaded listener.js
+1498280942634	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-06-24 13:09:02.738 plugin-container[65534:3975414] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-24 13:09:02.744 plugin-container[65534:3975414] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e27, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-24 13:09:02.745 plugin-container[65534:3975414] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1498280942773	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1498280942774	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1498280942789	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1498280942822	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1498280946120	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1498281053740	geckodriver	INFO	Listening on 127.0.0.1:55874
+1498281053802	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1498281055926	Marionette	INFO	Listening on port 55878
+1498281056053	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498281056321	Marionette	DEBUG	loaded listener.js
+1498281056366	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1498281056417	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1498281056418	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1498281056429	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1498281056464	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+2017-06-24 13:10:56.554 plugin-container[67224:3978442] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-24 13:10:56.557 plugin-container[67224:3978442] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8d23, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-24 13:10:56.557 plugin-container[67224:3978442] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1498281069874	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1498281304481	geckodriver	INFO	Listening on 127.0.0.1:55959
+1498281304554	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1498281306630	Marionette	INFO	Listening on port 55963
+1498281306710	Marionette	WARN	TLS certificate errors will be ignored for this session
+1498281307013	Marionette	DEBUG	loaded listener.js
+1498281307056	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1498281307105	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1498281307105	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1498281307186	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1498281307189	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+2017-06-24 13:15:07.268 plugin-container[71049:3983987] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8f3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-24 13:15:07.271 plugin-container[71049:3983987] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x5107, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-06-24 13:15:07.272 plugin-container[71049:3983987] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1498281307681	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_mac_82990d4.js, line 4: ReferenceError: c is not defined
+JavaScript error: http://xiuxiu.web.meitu.com/main.html, line 94: TypeError: getFlash(...) is undefined
+JavaScript error: http://xiuxiu.web.meitu.com/main.html, line 108: TypeError: getFlash(...) is undefined
+JavaScript warning: http://jingyan.baidu.com/article/1709ad80aad9ff4634c4f002.html, line 110: SyntaxError: 09 is not a legal ECMA-262 octal constant
+*************************
+A coding exception was thrown and uncaught in a Task.
+
+Full message: TypeError: NetworkError when attempting to fetch resource.
+Full stack: 
+*************************
+JavaScript error: http://xiuxiu.web.meitu.com/main.html, line 94: TypeError: getFlash(...) is undefined
+JavaScript error: http://bdimg.share.baidu.com/static/api/js/trans/logger.js?v=d16ec0e3.js, line 1: TypeError: n.ajax.request is not a function
+JavaScript error: http://xiuxiu.web.meitu.com/main.html, line 108: TypeError: getFlash(...) is undefined
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x7E0006,name=PHttpChannel::Msg_Cancel) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400AC,name=PContent::Msg_ScriptError) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x440102,name=PContent::Msg_AsyncMessage) Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: chrome://global/content/process-content.js, line 71: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsIMessageSender.sendAsyncMessage]
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x2C0048,name=PBrowser::Msg___delete__) Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x4400AB,name=PContent::Msg_ConsoleMessage) Channel closing: too late to send/recv, messages will be lost
+
+1499509171286	Marionette	INFO	Ceased listening
+1499563237514	geckodriver	INFO	Listening on 127.0.0.1:61783
+1499563238705	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499563240831	Marionette	INFO	Listening on port 61789
+1499563240928	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499563241190	Marionette	DEBUG	loaded listener.js
+1499563241236	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-09 09:20:41.357 plugin-container[57961:4851589] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:20:41.363 plugin-container[57961:4851589] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x910f, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:20:41.363 plugin-container[57961:4851589] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1499563241382	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499563241383	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499563241389	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1499563241414	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1499563241768	Marionette	INFO	New connections will no longer be accepted
+1499563977458	geckodriver	INFO	Listening on 127.0.0.1:61876
+1499563977519	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499563979381	Marionette	INFO	Listening on port 61880
+1499563979463	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499563979734	Marionette	DEBUG	loaded listener.js
+1499563979776	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-09 09:32:59.893 plugin-container[69040:4866006] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:32:59.898 plugin-container[69040:4866006] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c1f, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:32:59.898 plugin-container[69040:4866006] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1499563979912	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499563979912	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499563979926	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1499563979956	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1499563980322	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1499564042022	geckodriver	INFO	Listening on 127.0.0.1:61942
+1499564042097	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499564043988	Marionette	INFO	Listening on port 61946
+1499564044116	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499564044344	Marionette	DEBUG	loaded listener.js
+1499564044393	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-09 09:34:04.509 plugin-container[69971:4867948] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b37, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:34:04.515 plugin-container[69971:4867948] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8d1b, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:34:04.515 plugin-container[69971:4867948] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1499564044535	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499564044536	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499564044551	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1499564044585	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1499564044958	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1499564746307	geckodriver	INFO	Listening on 127.0.0.1:62140
+1499564746372	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499564748295	Marionette	INFO	Listening on port 62144
+1499564748403	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499564748657	Marionette	DEBUG	loaded listener.js
+1499564748702	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-09 09:45:48.813 plugin-container[80492:4883279] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:45:48.817 plugin-container[80492:4883279] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4a23, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:45:48.817 plugin-container[80492:4883279] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1499564748829	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499564748830	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499564748838	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1499564748872	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1499564759268	Marionette	INFO	New connections will no longer be accepted
+1499564956486	geckodriver	INFO	Listening on 127.0.0.1:62246
+1499564956554	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499564958419	Marionette	INFO	Listening on port 62250
+1499564958490	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499564958794	Marionette	DEBUG	loaded listener.js
+1499564958833	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1499564958888	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499564958889	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499564958896	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1499564958942	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+2017-07-09 09:49:19.021 plugin-container[83705:4888406] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:49:19.028 plugin-container[83705:4888406] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4d07, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:49:19.028 plugin-container[83705:4888406] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1499564969341	Marionette	INFO	New connections will no longer be accepted
+1499565120920	geckodriver	INFO	Listening on 127.0.0.1:62334
+1499565120994	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499565122855	Marionette	INFO	Listening on port 62338
+1499565122973	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499565123233	Marionette	DEBUG	loaded listener.js
+1499565123307	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-09 09:52:03.379 plugin-container[86172:4892585] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8a3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:52:03.386 plugin-container[86172:4892585] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4b07, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 09:52:03.386 plugin-container[86172:4892585] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1499565123410	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499565123410	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499565123421	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1499565123449	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1499565123839	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 86172] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
+1499565940214	geckodriver	INFO	Listening on 127.0.0.1:62442
+1499565940280	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499565942150	Marionette	INFO	Listening on port 62446
+1499565942232	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499565942517	Marionette	DEBUG	loaded listener.js
+1499565942593	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-09 10:05:42.665 plugin-container[98381:4909614] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 10:05:42.670 plugin-container[98381:4909614] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4e07, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 10:05:42.671 plugin-container[98381:4909614] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1499565942696	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499565942696	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499565942704	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1499565942735	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1499565943128	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1499565984638	geckodriver	INFO	Listening on 127.0.0.1:62510
+1499565984701	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499565986556	Marionette	INFO	Listening on port 62514
+1499565986622	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499565986938	Marionette	DEBUG	loaded listener.js
+1499565986989	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-09 10:06:27.099 plugin-container[99009:4911097] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 10:06:27.102 plugin-container[99009:4911097] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4d07, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 10:06:27.102 plugin-container[99009:4911097] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1499565987111	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499565987112	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499565987125	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1499565987156	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1499565987588	Marionette	INFO	New connections will no longer be accepted
+1499566092620	geckodriver	INFO	Listening on 127.0.0.1:62579
+1499566092687	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499566094560	Marionette	INFO	Listening on port 62583
+1499566094636	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499566094914	Marionette	DEBUG	loaded listener.js
+1499566094958	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1499566095019	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499566095020	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499566095030	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1499566095073	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+2017-07-09 10:08:15.147 plugin-container[860:4913900] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 10:08:15.156 plugin-container[860:4913900] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4f07, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 10:08:15.156 plugin-container[860:4913900] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1499566095692	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1499566171198	geckodriver	INFO	Listening on 127.0.0.1:62654
+1499566171258	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499566173129	Marionette	INFO	Listening on port 62658
+1499566173256	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499566173469	Marionette	DEBUG	loaded listener.js
+1499566173512	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-09 10:09:33.618 plugin-container[2100:4916128] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e33, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 10:09:33.623 plugin-container[2100:4916128] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4c13, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 10:09:33.623 plugin-container[2100:4916128] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1499566173636	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499566173636	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499566173647	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1499566173673	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+1499566174281	Marionette	INFO	New connections will no longer be accepted
+1499566316244	geckodriver	INFO	Listening on 127.0.0.1:62733
+1499566316309	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1499566318167	Marionette	INFO	Listening on port 62737
+1499566318234	Marionette	WARN	TLS certificate errors will be ignored for this session
+1499566318503	Marionette	DEBUG	loaded listener.js
+1499566318539	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1499566318584	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1499566318584	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1499566318593	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://127.0.0.1:8000/"
+1499566318635	Marionette	DEBUG	Received DOM event "pageshow" for "http://127.0.0.1:8000/"
+2017-07-09 10:11:58.712 plugin-container[4252:4919559] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8d3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 10:11:58.716 plugin-container[4252:4919559] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4e07, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-09 10:11:58.716 plugin-container[4252:4919559] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1499566319263	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+[Child 4252] WARNING: pipe error: Broken pipe: file /builds/slave/m-rel-m64-00000000000000000000/build/src/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 702
