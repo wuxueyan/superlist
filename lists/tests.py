@@ -3,11 +3,11 @@ from django.test import TestCase
 from django.core.urlresolvers import resolve
 from django.http import HttpRequest
 from django.template.loader import render_to_string
+from django.middleware.csrf import get_token
 
 from lists.models import Item
 from lists.views import home_page
 
-# Create your tests here.
 class HomePageTest(TestCase):
 	def test_root_url_resolve_to_home_page_view(self):
 		found = resolve('/')
@@ -15,8 +15,10 @@ class HomePageTest(TestCase):
 
 	def test_home_page_returns_correct_html(self):
 		request = HttpRequest()
+		csrf_token = get_token(request)
 		response = home_page(request)
-		expected_html = render_to_string('home.html')
+		expected_html = render_to_string('home.html',{'csrf_token':csrf_token})
+		print(expected_html)
 		self.assertEqual(response.content.decode(),expected_html)
 
 	def test_home_page_can_save_a_POST_request(self):
@@ -25,11 +27,37 @@ class HomePageTest(TestCase):
 		request.POST['item_text'] = 'A new list item'
 
 		response = home_page(request)
-		self.assertIn('A new list item',response.content.decode())
+
+		self.assertEqual(Item.objects.count(),1)
+		new_item = Item.objects.first()
+		self.assertEqual(new_item.text,'A new list item')
+		
+	def test_home_page_redirects_after_POST(self):
+		request = HttpRequest()
+		request.method = 'POST'
+		request.POST['item_text'] = 'A new list item'
+		
+		response = home_page(request)
+
+		self.assertEqual(response.status_code,302)
+		self.assertEqual(response['location'],'/')
+		
+		'''self.assertIn('A new list item',response.content.decode())
 		expected_html = render_to_string(
 				'home.html',{'new_item_text':'A new list item'}
 				)
-		self.assertEqual(response.content.decode(),expected_html)
+		self.assertEqual(response.content.decode(),expected_html)'''
+
+	def test_home_page_displays_all_list_items(self):
+		Item.objects.create(text='item1')
+		Item.objects.create(text='item2')
+
+		request = HttpRequest()
+		response = home_page(request)
+
+		self.assertIn('item1',response.content.decode())
+		self.assertIn('item2',response.content.decode())
+
 
 class ItemModeTest(TestCase):
 
@@ -49,3 +77,9 @@ class ItemModeTest(TestCase):
 		second_saved_item = saved_items[1]
 		self.assertEqual(first_saved_item.text,'The first(ever) list item')
 		self.assertEqual(second_saved_item.text,'Item the second')
+
+	def test_home_page_only_saves_items_when_necessary(self):
+		request = HttpRequest()
+		home_page(request)
+		self.assertEqual(Item.objects.count(),0)
+
