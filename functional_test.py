@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import unittest
+from selenium.webdriver.support.wait import	WebDriverWait
 import time
 
 class NewVisitorTest(unittest.TestCase):
@@ -19,7 +20,6 @@ class NewVisitorTest(unittest.TestCase):
 
 	def test_can_start_a_list_and_retrieve_it_later(self):
 		self.browser.get('http://127.0.0.1:8000')
-
 		self.assertIn('To-Do',self.browser.title)
 		header_text = self.browser.find_element_by_tag_name('h1').text
 		self.assertIn('To-Do',header_text)
@@ -33,7 +33,10 @@ class NewVisitorTest(unittest.TestCase):
 		inputbox.send_keys('Buy peacock feathers')
 
 		inputbox.send_keys(Keys.ENTER)
+
+		self.browser.implicitly_wait(10)
 		self.check_for_row_in_list_table('1:Buy peacock feathers')
+		self.browser.implicitly_wait(10)
 
 		'''	table = self.browser.find_element_by_id('id_list_table')
 		rows = table.find_elements_by_tag_name('tr')
@@ -63,6 +66,8 @@ class NewVisitorTest(unittest.TestCase):
 				)
 		'''
 		self.fail("Finish the test!")
+		
+		time.sleep(10)
 
 if __name__ == '__main__':
 	unittest.main(warnings='ignore')
