@@ -1,4 +1,4 @@
-#oding=utf-8
+#ding=utf-8
 from django.test import TestCase
 from django.core.urlresolvers import resolve
 from django.http import HttpRequest
@@ -18,7 +18,6 @@ class HomePageTest(TestCase):
 		csrf_token = get_token(request)
 		response = home_page(request)
 		expected_html = render_to_string('home.html',{'csrf_token':csrf_token})
-		print(expected_html)
 		self.assertEqual(response.content.decode(),expected_html)
 
 	def test_home_page_can_save_a_POST_request(self):
@@ -40,7 +39,7 @@ class HomePageTest(TestCase):
 		response = home_page(request)
 
 		self.assertEqual(response.status_code,302)
-		self.assertEqual(response['location'],'/')
+		self.assertEqual(response['location'],'/lists/the-only-list-in-the-world/')
 		
 		'''self.assertIn('A new list item',response.content.decode())
 		expected_html = render_to_string(
@@ -48,7 +47,7 @@ class HomePageTest(TestCase):
 				)
 		self.assertEqual(response.content.decode(),expected_html)'''
 
-	def test_home_page_displays_all_list_items(self):
+	'''def test_home_page_displays_all_list_items(self):
 		Item.objects.create(text='item1')
 		Item.objects.create(text='item2')
 
@@ -56,7 +55,7 @@ class HomePageTest(TestCase):
 		response = home_page(request)
 
 		self.assertIn('item1',response.content.decode())
-		self.assertIn('item2',response.content.decode())
+		self.assertIn('item2',response.content.decode())'''
 
 
 class ItemModeTest(TestCase):
@@ -82,4 +81,14 @@ class ItemModeTest(TestCase):
 		request = HttpRequest()
 		home_page(request)
 		self.assertEqual(Item.objects.count(),0)
-
+class ListViewTest(TestCase):
+    def test_uses_list_template(self):
+        response = self.client.get('/lists/the-only-list-in-the-world/')
+        self.assertTemplateUsed(response,'list.html')
+	
+    def test_displays_all_items(self):
+        Item.objects.create(text='itemy 1')
+        Item.objects.create(text='itemy 2')
+        response = self.client.get('/lists/the-only-list-in-the-world/')
+        self.assertContains(response,'itemy 1')
+        self.assertContains(response,'itemy 2')
