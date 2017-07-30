@@ -7,13 +7,13 @@
 <body>
 	<h1> Yours To-Do list</h1>
 
-	<form action="/lists/new" method="POST">
+	<form action="/lists/{{list.id}}/add_item" method="POST">
 		<input id="id_new_item" name="item_text" placeholder="Enter a to-do item"/>
 	    {% csrf_token %}
 	</form>
 
 <table id="id_list_table" border="1" width="700px">
-	{% for item in items %}
+	{% for item in list.item_set.all %}
 	<tr>
 		<td>{{ forloop.counter }}:{{ item.text }}</td>
 	</tr>
