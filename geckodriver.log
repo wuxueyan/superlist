@@ -2247,3 +2247,52 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1501335882537	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:55823/"
 1501335882599	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:55823/"
 1501335893021	Marionette	INFO	New connections will no longer be accepted
+1501508943735	geckodriver	INFO	Listening on 127.0.0.1:58413
+1501508944792	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1501508946854	Marionette	INFO	Listening on port 58419
+1501508946943	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501508947207	Marionette	DEBUG	loaded listener.js
+1501508947255	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+2017-07-31 13:49:07.373 plugin-container[73027:1857788] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8c3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-31 13:49:07.376 plugin-container[73027:1857788] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e1b, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-31 13:49:07.376 plugin-container[73027:1857788] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1501508947390	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1501508947390	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1501508947399	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:58412/"
+1501508947422	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:58412/"
+1501508957919	Marionette	INFO	New connections will no longer be accepted
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+1501508958041	geckodriver	INFO	Listening on 127.0.0.1:58508
+1501508959100	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1501508960935	Marionette	INFO	Listening on port 58514
+1501508961017	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501508961289	Marionette	DEBUG	loaded listener.js
+1501508961328	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1501508961377	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1501508961377	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1501508961383	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:58412/"
+1501508961408	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:58412/"
+2017-07-31 13:49:21.470 plugin-container[73182:1858650] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-31 13:49:21.470 plugin-container[73182:1858650] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8e27, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-31 13:49:21.470 plugin-container[73182:1858650] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1501508963775	Marionette	INFO	New connections will no longer be accepted
+1501508963934	geckodriver	INFO	Listening on 127.0.0.1:58579
+1501508964987	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin with args ["-marionette"]
+1501508966860	Marionette	INFO	Listening on port 58585
+1501508966944	Marionette	WARN	TLS certificate errors will be ignored for this session
+1501508967243	Marionette	DEBUG	loaded listener.js
+1501508967286	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1501508967344	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1501508967345	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1501508967351	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:58412/"
+1501508967380	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:58412/"
+2017-07-31 13:49:27.439 plugin-container[73336:1859330] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x8b3f, name = 'com.apple.tsm.portname'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-31 13:49:27.440 plugin-container[73336:1859330] *** CFMessagePort: bootstrap_register(): failed 1100 (0x44c) 'Permission denied', port = 0x4d07, name = 'com.apple.CFPasteboardClient'
+See /usr/include/servers/bootstrap_defs.h for the error codes.
+2017-07-31 13:49:27.440 plugin-container[73336:1859330] void __CFPasteboardSetup() : Failed to allocate communication port for com.apple.CFPasteboardClient; this is likely due to sandbox restrictions
+1501508967861	Marionette	INFO	New connections will no longer be accepted
