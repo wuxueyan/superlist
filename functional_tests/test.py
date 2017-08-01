@@ -80,14 +80,14 @@ class NewVisitorTest(LiveServerTestCase):
 		
 		inputbox = self.browser.find_element_by_id('id_new_item')
 		self.assertAlmostEqual(
-			inputbox.location['x']+inputbox.location['width'] / 2,
+			inputbox.location['x']+inputbox.location['y'] / 2,
 			512,delta = 5
 		)
 		
 		inputbox.send_keys('testing\n')
 		inputbox = self.browser.find_element_by_id('id_new_item')
 		self.assertAlmostEqual(
-			inputbox.location['x']+inputbox.location['width'] / 2,
+			inputbox.location['x']+inputbox.location['y'] / 2,
 			512,
 			delta=5
 		)
