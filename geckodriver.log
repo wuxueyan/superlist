@@ -2392,3 +2392,456 @@ See /usr/include/servers/bootstrap_defs.h for the error codes.
 1501595176115	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://localhost:59689/"
 1501595176135	Marionette	DEBUG	Received DOM event "pageshow" for "http://localhost:59689/"
 1501595176541	Marionette	INFO	New connections will no longer be accepted
+1544781063713	geckodriver	INFO	geckodriver 0.20.1
+1544781063735	geckodriver	INFO	Listening on 127.0.0.1:58756
+1544781066728	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.tDjgI5FNezwQ"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544781067588	Marionette	INFO	Enabled via --marionette
+1544781069363	Marionette	INFO	Listening on port 58769
+1544781069850	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544781081709	geckodriver	INFO	geckodriver 0.20.1
+1544781081718	geckodriver	INFO	Listening on 127.0.0.1:58858
+1544781084735	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.z6RyApM5nKVA"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544781085383	Marionette	INFO	Enabled via --marionette
+1544781087082	Marionette	INFO	Listening on port 58872
+1544781087871	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544781091628	geckodriver	INFO	geckodriver 0.20.1
+1544781091645	geckodriver	INFO	Listening on 127.0.0.1:58930
+1544781094653	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.OSGrkdAQHEf9"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544781095212	Marionette	INFO	Enabled via --marionette
+1544781096757	Marionette	INFO	Listening on port 58944
+1544781097774	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544781098405	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544781461655	geckodriver	INFO	geckodriver 0.20.1
+1544781461663	geckodriver	INFO	Listening on 127.0.0.1:59718
+1544781464678	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.dIJenQZQmNdp"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544781465307	Marionette	INFO	Enabled via --marionette
+1544781467012	Marionette	INFO	Listening on port 59730
+1544781467806	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544781480091	geckodriver	INFO	geckodriver 0.20.1
+1544781480098	geckodriver	INFO	Listening on 127.0.0.1:59821
+1544781483133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.xd4OmgoPzKnb"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544781483942	Marionette	INFO	Enabled via --marionette
+1544781485365	Marionette	INFO	Listening on port 59840
+1544781486250	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544781489889	geckodriver	INFO	geckodriver 0.20.1
+1544781489897	geckodriver	INFO	Listening on 127.0.0.1:59890
+1544781492915	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.xbJJAA9EUPUb"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544781493542	Marionette	INFO	Enabled via --marionette
+1544781495444	Marionette	INFO	Listening on port 59904
+1544781496036	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544781496608	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544781696862	geckodriver	INFO	geckodriver 0.20.1
+1544781696874	geckodriver	INFO	Listening on 127.0.0.1:60375
+1544781699904	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.4diHhFXenCwt"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544781700491	Marionette	INFO	Enabled via --marionette
+1544781702171	Marionette	INFO	Listening on port 60387
+1544781703021	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544781714713	geckodriver	INFO	geckodriver 0.20.1
+1544781714722	geckodriver	INFO	Listening on 127.0.0.1:60476
+1544781717744	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.10ioMafYZPdy"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544781718318	Marionette	INFO	Enabled via --marionette
+1544781719973	Marionette	INFO	Listening on port 60489
+1544781720860	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544781724495	geckodriver	INFO	geckodriver 0.20.1
+1544781724504	geckodriver	INFO	Listening on 127.0.0.1:60537
+1544781727515	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.R53HlWgoOAPn"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544781728078	Marionette	INFO	Enabled via --marionette
+1544781729711	Marionette	INFO	Listening on port 60553
+1544781730635	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544781731203	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544782101739	geckodriver	INFO	geckodriver 0.20.1
+1544782101749	geckodriver	INFO	Listening on 127.0.0.1:61476
+1544782104765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.dDWhHG7BeYiT"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544782105359	Marionette	INFO	Enabled via --marionette
+1544782107055	Marionette	INFO	Listening on port 61489
+1544782107881	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544782119563	geckodriver	INFO	geckodriver 0.20.1
+1544782119576	geckodriver	INFO	Listening on 127.0.0.1:61569
+1544782122582	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.laGItVKQwkO7"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544782123152	Marionette	INFO	Enabled via --marionette
+1544782124682	Marionette	INFO	Listening on port 61582
+1544782125699	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544782129554	geckodriver	INFO	geckodriver 0.20.1
+1544782129563	geckodriver	INFO	Listening on 127.0.0.1:61631
+1544782132581	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.gVI5DbxikAnL"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544782133167	Marionette	INFO	Enabled via --marionette
+1544782134769	Marionette	INFO	Listening on port 61647
+1544782135700	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544782136356	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544787988486	geckodriver	INFO	geckodriver 0.20.1
+1544787988495	geckodriver	INFO	Listening on 127.0.0.1:64985
+1544787991508	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.iZfgio07nU2s"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544787992468	Marionette	INFO	Enabled via --marionette
+1544787994360	Marionette	INFO	Listening on port 65018
+1544787994623	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544788006425	geckodriver	INFO	geckodriver 0.20.1
+1544788006433	geckodriver	INFO	Listening on 127.0.0.1:65181
+1544788009449	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.jaaBPuHoQqAB"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544788010019	Marionette	INFO	Enabled via --marionette
+1544788011467	Marionette	INFO	Listening on port 65210
+1544788012563	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544788016067	geckodriver	INFO	geckodriver 0.20.1
+1544788016080	geckodriver	INFO	Listening on 127.0.0.1:65262
+1544788019088	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.rVOwKsBIpUoT"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544788019648	Marionette	INFO	Enabled via --marionette
+1544788021044	Marionette	INFO	Listening on port 65275
+1544788021120	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544788022145	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544789220904	geckodriver	INFO	geckodriver 0.20.1
+1544789220914	geckodriver	INFO	Listening on 127.0.0.1:50834
+1544789223979	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.78BwvPIZRwLo"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544789224570	Marionette	INFO	Enabled via --marionette
+1544789226028	Marionette	INFO	Listening on port 50847
+1544789227110	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544789239717	geckodriver	INFO	geckodriver 0.20.1
+1544789239730	geckodriver	INFO	Listening on 127.0.0.1:50937
+1544789242765	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.zezxCsONj7Q2"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544789243713	Marionette	INFO	Enabled via --marionette
+1544789245284	Marionette	INFO	Listening on port 50949
+1544789245893	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544789249927	geckodriver	INFO	geckodriver 0.20.1
+1544789249946	geckodriver	INFO	Listening on 127.0.0.1:51002
+1544789252985	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.bnA9CO6JUkUi"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544789253900	Marionette	INFO	Enabled via --marionette
+1544789255505	Marionette	INFO	Listening on port 51014
+1544789256119	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544789256766	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544789347509	geckodriver	INFO	geckodriver 0.20.1
+1544789347519	geckodriver	INFO	Listening on 127.0.0.1:51185
+1544789350569	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.Zh8wvg1XrukB"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544789351146	Marionette	INFO	Enabled via --marionette
+1544789352574	Marionette	INFO	Listening on port 51197
+1544789352595	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544789365409	geckodriver	INFO	geckodriver 0.20.1
+1544789365430	geckodriver	INFO	Listening on 127.0.0.1:51275
+1544789368438	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.FDiYw4QsTZxg"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544789368989	Marionette	INFO	Enabled via --marionette
+1544789370437	Marionette	INFO	Listening on port 51287
+1544789370457	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544789374872	geckodriver	INFO	geckodriver 0.20.1
+1544789374880	geckodriver	INFO	Listening on 127.0.0.1:51333
+1544789377988	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.i6Ooop1BzvOl"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544789378736	Marionette	INFO	Enabled via --marionette
+1544789380174	Marionette	INFO	Listening on port 51345
+1544789381118	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544789381768	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544789915884	geckodriver	INFO	geckodriver 0.20.1
+1544789915892	geckodriver	INFO	Listening on 127.0.0.1:52188
+1544789918925	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.eAIVf6DK9Amb"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544789919670	Marionette	INFO	Enabled via --marionette
+1544789921283	Marionette	INFO	Listening on port 52200
+1544789922053	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544789934163	geckodriver	INFO	geckodriver 0.20.1
+1544789934172	geckodriver	INFO	Listening on 127.0.0.1:52277
+1544789937246	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.PH69lllqiUrl"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544789937964	Marionette	INFO	Enabled via --marionette
+1544789939435	Marionette	INFO	Listening on port 52291
+1544789940381	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544789944196	geckodriver	INFO	geckodriver 0.20.1
+1544789944204	geckodriver	INFO	Listening on 127.0.0.1:52342
+1544789947290	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.9Ts2mWZAVaDT"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544789947923	Marionette	INFO	Enabled via --marionette
+1544789949311	Marionette	INFO	Listening on port 52356
+1544789950427	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544789951116	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544793234267	geckodriver	INFO	geckodriver 0.20.1
+1544793234275	geckodriver	INFO	Listening on 127.0.0.1:57948
+1544793237371	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.xOW5Ot8shcsc"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544793238427	Marionette	INFO	Enabled via --marionette
+1544793239935	Marionette	INFO	Listening on port 57961
+1544793240499	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544793252783	geckodriver	INFO	geckodriver 0.20.1
+1544793252797	geckodriver	INFO	Listening on 127.0.0.1:58058
+1544793255808	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.6hjwnT6XmWOF"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544793256849	Marionette	INFO	Enabled via --marionette
+1544793258466	Marionette	INFO	Listening on port 58071
+1544793258926	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544793263068	geckodriver	INFO	geckodriver 0.20.1
+1544793263086	geckodriver	INFO	Listening on 127.0.0.1:58120
+1544793266153	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.uLU6Dc54uypf"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544793267328	Marionette	INFO	Enabled via --marionette
+1544793268986	Marionette	INFO	Listening on port 58133
+1544793269275	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544793270124	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544798768040	geckodriver	INFO	geckodriver 0.20.1
+1544798768048	geckodriver	INFO	Listening on 127.0.0.1:50880
+1544798771182	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.bOUnfzkwOS66"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544798772581	Marionette	INFO	Enabled via --marionette
+1544798774654	Marionette	INFO	Listening on port 50892
+1544798774817	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1544798791240	geckodriver	INFO	geckodriver 0.20.1
+1544798791260	geckodriver	INFO	Listening on 127.0.0.1:50967
+1544798794325	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.TSceC2XSXCDa"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1544798795148	Marionette	INFO	Enabled via --marionette
+1544798796765	Marionette	INFO	Listening on port 50979
+1544798797453	Marionette	WARN	TLS certificate errors will be ignored for this session
+1544798798195	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545015661410	geckodriver	INFO	geckodriver 0.20.1
+1545015661426	geckodriver	INFO	Listening on 127.0.0.1:60396
+1545015664457	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.wL71urxObJL6"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545015665189	Marionette	INFO	Enabled via --marionette
+1545015666954	Marionette	INFO	Listening on port 60407
+1545015667586	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545015683443	geckodriver	INFO	geckodriver 0.20.1
+1545015683453	geckodriver	INFO	Listening on 127.0.0.1:60453
+1545015686475	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.3RFM4l70mWzL"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545015687042	Marionette	INFO	Enabled via --marionette
+1545015688891	Marionette	INFO	Listening on port 60461
+1545015689599	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545015690187	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545016214015	geckodriver	INFO	geckodriver 0.20.1
+1545016214024	geckodriver	INFO	Listening on 127.0.0.1:60826
+1545016217060	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.rfk4NjWajiZ3"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545016217669	Marionette	INFO	Enabled via --marionette
+1545016219226	Marionette	INFO	Listening on port 60834
+1545016220187	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545016235898	geckodriver	INFO	geckodriver 0.20.1
+1545016235908	geckodriver	INFO	Listening on 127.0.0.1:60877
+1545016238937	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.4pTUM26CAs9d"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545016239583	Marionette	INFO	Enabled via --marionette
+1545016240996	Marionette	INFO	Listening on port 60885
+1545016242057	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545016242685	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545026121443	geckodriver	INFO	geckodriver 0.20.1
+1545026121451	geckodriver	INFO	Listening on 127.0.0.1:62415
+1545026124469	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.fZi22kNpekTl"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545026125106	Marionette	INFO	Enabled via --marionette
+1545026126685	Marionette	INFO	Listening on port 62426
+1545026127582	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545026143250	geckodriver	INFO	geckodriver 0.20.1
+1545026143263	geckodriver	INFO	Listening on 127.0.0.1:62473
+1545026146262	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.151pU6Xj6qlj"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545026146823	Marionette	INFO	Enabled via --marionette
+1545026148285	Marionette	INFO	Listening on port 62481
+1545026149377	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545026150018	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545026187797	geckodriver	INFO	geckodriver 0.20.1
+1545026187805	geckodriver	INFO	Listening on 127.0.0.1:62521
+1545026190837	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.Mr8RowcOhXlh"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545026191396	Marionette	INFO	Enabled via --marionette
+1545026192913	Marionette	INFO	Listening on port 62529
+1545026193951	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545026209515	geckodriver	INFO	geckodriver 0.20.1
+1545026209523	geckodriver	INFO	Listening on 127.0.0.1:62569
+1545026212543	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.IFxGTnG92xAK"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545026213091	Marionette	INFO	Enabled via --marionette
+1545026214727	Marionette	INFO	Listening on port 62578
+1545026215659	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545026216275	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545026231955	geckodriver	INFO	geckodriver 0.20.1
+1545026231964	geckodriver	INFO	Listening on 127.0.0.1:62613
+1545026234983	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.yCUWzVxmScI7"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545026235551	Marionette	INFO	Enabled via --marionette
+1545026237125	Marionette	INFO	Listening on port 62624
+1545026238097	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545026253631	geckodriver	INFO	geckodriver 0.20.1
+1545026253639	geckodriver	INFO	Listening on 127.0.0.1:62670
+1545026256652	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.dn85WESunsOV"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545026257220	Marionette	INFO	Enabled via --marionette
+1545026258848	Marionette	INFO	Listening on port 62680
+1545026259766	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545026260373	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545026491414	geckodriver	INFO	geckodriver 0.20.1
+1545026491422	geckodriver	INFO	Listening on 127.0.0.1:62772
+1545026494441	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.AokyctQERijC"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545026495013	Marionette	INFO	Enabled via --marionette
+1545026496729	Marionette	INFO	Listening on port 62782
+1545026497553	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545026513156	geckodriver	INFO	geckodriver 0.20.1
+1545026513164	geckodriver	INFO	Listening on 127.0.0.1:62827
+1545026516194	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.wX74xrz1vPyf"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545026516864	Marionette	INFO	Enabled via --marionette
+1545026518356	Marionette	INFO	Listening on port 62835
+1545026519307	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545026520025	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545032459576	geckodriver	INFO	geckodriver 0.20.1
+1545032459584	geckodriver	INFO	Listening on 127.0.0.1:53430
+1545032462599	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.V4PB7U329XOo"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545032463232	Marionette	INFO	Enabled via --marionette
+1545032464928	Marionette	INFO	Listening on port 53443
+1545032465709	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545032482086	geckodriver	INFO	geckodriver 0.20.1
+1545032482094	geckodriver	INFO	Listening on 127.0.0.1:53520
+1545032485133	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.Kx6bahrBbN7C"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545032485665	Marionette	INFO	Enabled via --marionette
+1545032487285	Marionette	INFO	Listening on port 53533
+1545032488267	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545032503914	geckodriver	INFO	geckodriver 0.20.1
+1545032503922	geckodriver	INFO	Listening on 127.0.0.1:53607
+1545032506945	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.BQKl7etObdCJ"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545032507508	Marionette	INFO	Enabled via --marionette
+1545032509080	Marionette	INFO	Listening on port 53619
+1545032510054	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545032510658	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545032608178	geckodriver	INFO	geckodriver 0.20.1
+1545032608189	geckodriver	INFO	Listening on 127.0.0.1:53822
+1545032611201	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.v8on6bxxanrv"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545032611734	Marionette	INFO	Enabled via --marionette
+1545032613330	Marionette	INFO	Listening on port 53834
+1545032614315	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545032629902	geckodriver	INFO	geckodriver 0.20.1
+1545032629909	geckodriver	INFO	Listening on 127.0.0.1:53912
+1545032632933	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.En0A0gOcuiY6"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545032633470	Marionette	INFO	Enabled via --marionette
+1545032635071	Marionette	INFO	Listening on port 53925
+1545032636052	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545032636716	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545033491400	geckodriver	INFO	geckodriver 0.20.1
+1545033491409	geckodriver	INFO	Listening on 127.0.0.1:55715
+1545033494421	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.ncs09UKEOYOF"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545033495020	Marionette	INFO	Enabled via --marionette
+1545033496738	Marionette	INFO	Listening on port 55729
+1545033497538	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545033513076	geckodriver	INFO	geckodriver 0.20.1
+1545033513086	geckodriver	INFO	Listening on 127.0.0.1:55798
+1545033516100	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.MddgQgjH5Ej5"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545033516681	Marionette	INFO	Enabled via --marionette
+1545033518270	Marionette	INFO	Listening on port 55811
+1545033519210	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545033519827	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545035019745	geckodriver	INFO	geckodriver 0.20.1
+1545035019753	geckodriver	INFO	Listening on 127.0.0.1:58767
+1545035022782	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.O2E9AiPnXYr4"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545035023335	Marionette	INFO	Enabled via --marionette
+1545035025148	Marionette	INFO	Listening on port 58782
+1545035025896	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545035041569	geckodriver	INFO	geckodriver 0.20.1
+1545035041586	geckodriver	INFO	Listening on 127.0.0.1:58856
+1545035044594	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.9FzI9GK3aE7E"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545035045131	Marionette	INFO	Enabled via --marionette
+1545035046611	Marionette	INFO	Listening on port 58869
+1545035047707	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545035048341	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545035300182	geckodriver	INFO	geckodriver 0.20.1
+1545035300190	geckodriver	INFO	Listening on 127.0.0.1:59373
+1545035303211	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.FvoQKbdRkjF1"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545035303775	Marionette	INFO	Enabled via --marionette
+1545035305381	Marionette	INFO	Listening on port 59387
+1545035306332	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545035322026	geckodriver	INFO	geckodriver 0.20.1
+1545035322033	geckodriver	INFO	Listening on 127.0.0.1:59464
+1545035325050	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.7rNINKdlJA9b"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545035325609	Marionette	INFO	Enabled via --marionette
+1545035327153	Marionette	INFO	Listening on port 59479
+1545035328164	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545035328778	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545036304872	geckodriver	INFO	geckodriver 0.20.1
+1545036304880	geckodriver	INFO	Listening on 127.0.0.1:61687
+1545036307905	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.TWrnegmwPsee"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545036308523	Marionette	INFO	Enabled via --marionette
+1545036310164	Marionette	INFO	Listening on port 61700
+1545036311018	Marionette	WARN	TLS certificate errors will be ignored for this session
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+1545036326632	geckodriver	INFO	geckodriver 0.20.1
+1545036326639	geckodriver	INFO	Listening on 127.0.0.1:61776
+1545036329657	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\11029\\AppData\\Local\\Temp\\rust_mozprofile.1J0LMYxik6qq"
+Unable to read VR Path Registry from C:\Users\11029\AppData\Local\openvr\openvrpaths.vrpath
+1545036330222	Marionette	INFO	Enabled via --marionette
+1545036331760	Marionette	INFO	Listening on port 61789
+1545036332772	Marionette	WARN	TLS certificate errors will be ignored for this session
+1545036333455	addons.xpi	WARN	Exception running bootstrap method shutdown on activity-stream@mozilla.org: [Exception... "Component returned failure code: 0x80004005 (NS_ERROR_FAILURE) [nsIObserverService.removeObserver]"  nsresult: "0x80004005 (NS_ERROR_FAILURE)"  location: "JS frame :: resource://activity-stream/lib/SnippetsFeed.jsm :: uninit :: line 123"  data: no] Stack trace: uninit()@resource://activity-stream/lib/SnippetsFeed.jsm:123 < onAction()@resource://activity-stream/lib/SnippetsFeed.jsm:138 < _middleware/</<()@resource://activity-stream/lib/Store.jsm:52 < Store/this[method]()@resource://activity-stream/lib/Store.jsm:31 < uninit()@resource://activity-stream/lib/Store.jsm:151 < uninit()@resource://activity-stream/lib/ActivityStream.jsm:266 < uninit()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:80 < shutdown()@resource://gre/modules/addons/XPIProvider.jsm -> jar:file:///C:/Program%20Files/Mozilla%20Firefox/browser/features/activity-stream@mozilla.org.xpi!/bootstrap.js:196 < callBootstrapMethod()@resource://gre/modules/addons/XPIProvider.jsm:4509 < observe()@resource://gre/modules/addons/XPIProvider.jsm:2281 < GeckoDriver.prototype.quit()@driver.js:3307 < despatch()@server.js:553 < execute()@server.js:527 < onPacket/<()@server.js:502 < onPacket()@server.js:501 < _onJSONObjectReady/<()@transport.js:501
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
